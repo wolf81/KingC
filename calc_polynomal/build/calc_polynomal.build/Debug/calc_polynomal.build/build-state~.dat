@@ -1,0 +1,56 @@
+Tcalc_polynomal
+v7
+r0
+t303160521.388229
+cCheck dependencies
+cDistributed-CompileC build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/calc_polynomal/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C45706C00000000000000EE
+t1279619180
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Users/wsc/Development/C Programming/calc_polynomal/build/Debug/calc_polynomal
+t2
+s0
+
+N/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/calc_polynomal.LinkFileList
+c000000004C61A5490000000000000087
+t1281467721
+s135
+
+N/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/wsc/Development/C Programming/calc_polynomal/main.c
+c000000004C61A54600000000000000E7
+t1281467718
+s231
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303160521#303160521#0(0"0(0#1#0"8641117024#0"0#
+
+CDistributed-CompileC build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/calc_polynomal/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s303160521.386263
+e303160521.388163
+r0
+xDistributed-CompileC
+xbuild/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o
+x/Users/wsc/Development/C Programming/calc_polynomal/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Distribute compilation of /Users/wsc/Development/C Programming/calc_polynomal/main.c303160521#303160521#0(468"/Users/wsc/Development/C Programming/calc_polynomal/main.c: In function 'main':/Users/wsc/Development/C Programming/calc_polynomal/main.c:11: error: expected ';' before 'y'/Users/wsc/Development/C Programming/calc_polynomal/main.c:6: warning: unused variable 'y'/Users/wsc/Development/C Programming/calc_polynomal/main.c: In function 'calc_polynomal':/Users/wsc/Development/C Programming/calc_polynomal/main.c:19: warning: control reaches end of non-void function3(4@23"Expected ';' before 'y'303160521#80#94#0(6@58"/Users/wsc/Development/C Programming/calc_polynomal/main.c303160518#11#0#11#0#19"expected * before *0(22@19"Unused variable 'y'303160521#174#91#0(6@58"/Users/wsc/Development/C Programming/calc_polynomal/main.c303160518#6#0#6#0#19"unused variable '*'0(22@40"Control reaches end of non-void function303160521#355#113#0(6@58"/Users/wsc/Development/C Programming/calc_polynomal/main.c303160518#19#0#19#0#40"control reaches end of non-void function0(0#0#58"/Users/wsc/Development/C Programming/calc_polynomal/main.c8638324768#1767"    cd "/Users/wsc/Development/C Programming/calc_polynomal"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/calc_polynomal-generated-files.hmap" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/calc_polynomal-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/calc_polynomal-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/calc_polynomal-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/calc_polynomal/build/Debug" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/Debug/include" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/DerivedSources" -c "/Users/wsc/Development/C Programming/calc_polynomal/main.c" -o "/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o"1#
+
+CLd "/Users/wsc/Development/C Programming/calc_polynomal/build/Debug/calc_polynomal" normal x86_64
+r0
+

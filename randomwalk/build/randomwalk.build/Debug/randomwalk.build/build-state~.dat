@@ -1,0 +1,63 @@
+Trandomwalk
+v7
+r0
+t303065383.979072
+cCheck dependencies
+cDistributed-CompileC build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/randomwalk/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C45706C00000000000000EE
+t1279619180
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Users/wsc/Development/C Programming/randomwalk/build/Debug/randomwalk
+t2
+s0
+
+N/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/randomwalk.LinkFileList
+c000000004C6031A7000000000000007B
+t1281372583
+s123
+
+N/Users/wsc/Development/C Programming/randomwalk/main.c
+c000000004C6031A6000000000000007A
+t1281372582
+s122
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303065383#303065383#0(0"0(0#1#0"8639465152#0"0#
+
+CDistributed-CompileC build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/randomwalk/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s303065383.902822
+e303065383.978986
+r0
+xDistributed-CompileC
+xbuild/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o
+x/Users/wsc/Development/C Programming/randomwalk/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+odistcc[72626] ERROR: compile /Users/wsc/Development/C Programming/randomwalk/main.c on localhost:3632/2 failed
+odistcc[72626] (dcc_build_somewhere) Warning: remote compilation of '/Users/wsc/Development/C Programming/randomwalk/main.c' failed, retrying locally
+odistcc[72626] Warning: failed to distribute /Users/wsc/Development/C Programming/randomwalk/main.c to localhost:3632/2, running locally instead
+o/Users/wsc/Development/C Programming/randomwalk/main.c: In function 'main':
+o/Users/wsc/Development/C Programming/randomwalk/main.c:5: error: expected ',' or ';' before 'char'
+o/Users/wsc/Development/C Programming/randomwalk/main.c:4: warning: unused variable 'c'
+odistcc[72626] ERROR: compile /Users/wsc/Development/C Programming/randomwalk/main.c on localhost failed
+lSLF07#2@80"Distribute compilation of /Users/wsc/Development/C Programming/randomwalk/main.c303065383#303065383#0(770"distcc[72626] ERROR: compile /Users/wsc/Development/C Programming/randomwalk/main.c on localhost:3632/2 faileddistcc[72626] (dcc_build_somewhere) Warning: remote compilation of '/Users/wsc/Development/C Programming/randomwalk/main.c' failed, retrying locallydistcc[72626] Warning: failed to distribute /Users/wsc/Development/C Programming/randomwalk/main.c to localhost:3632/2, running locally instead/Users/wsc/Development/C Programming/randomwalk/main.c: In function 'main':/Users/wsc/Development/C Programming/randomwalk/main.c:5: error: expected ',' or ';' before 'char'/Users/wsc/Development/C Programming/randomwalk/main.c:4: warning: unused variable 'c'distcc[72626] ERROR: compile /Users/wsc/Development/C Programming/randomwalk/main.c on localhost failed2(4@33"Expected ',' or ';' before 'char'303065383#480#99#0(6@54"/Users/wsc/Development/C Programming/randomwalk/main.c303065382#5#0#5#0#19"expected * before *0(22@19"Unused variable 'c'303065383#579#87#0(6@54"/Users/wsc/Development/C Programming/randomwalk/main.c303065382#4#0#4#0#19"unused variable '*'0(0#0#54"/Users/wsc/Development/C Programming/randomwalk/main.c8619611648#1651"    cd "/Users/wsc/Development/C Programming/randomwalk"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/randomwalk-generated-files.hmap" "-I/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/randomwalk-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/randomwalk-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/randomwalk-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/randomwalk/build/Debug" "-I/Users/wsc/Development/C Programming/randomwalk/build/Debug/include" "-I/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/DerivedSources" -c "/Users/wsc/Development/C Programming/randomwalk/main.c" -o "/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o"1#
+
+CLd "/Users/wsc/Development/C Programming/randomwalk/build/Debug/randomwalk" normal x86_64
+r0
+

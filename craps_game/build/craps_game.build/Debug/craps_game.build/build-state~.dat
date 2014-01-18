@@ -1,0 +1,68 @@
+Tcraps_game
+v7
+r0
+t303199547.902124
+cCheck dependencies
+cDistributed-CompileC build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/craps_game/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C45706C00000000000000EE
+t1279619180
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
+c000000004AC59C810000000000002C18
+t1254464641
+s11288
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Users/wsc/Development/C Programming/craps_game/build/Debug/craps_game
+t2
+s0
+
+N/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/craps_game.LinkFileList
+c000000004C623DBB000000000000007B
+t1281506747
+s123
+
+N/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/wsc/Development/C Programming/craps_game/main.c
+c000000004C623DAF00000000000000DD
+t1281506735
+s221
+i<stdio.h>
+i<ctype.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303199547#303199547#0(0"0(0#1#0"8660520576#0"0#
+
+CDistributed-CompileC build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/craps_game/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s303199547.594355
+e303199547.902057
+r0
+xDistributed-CompileC
+xbuild/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o
+x/Users/wsc/Development/C Programming/craps_game/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+odistcc[11214] ERROR: compile /Users/wsc/Development/C Programming/craps_game/main.c on localhost:3632/2 failed
+odistcc[11214] (dcc_build_somewhere) Warning: remote compilation of '/Users/wsc/Development/C Programming/craps_game/main.c' failed, retrying locally
+odistcc[11214] Warning: failed to distribute /Users/wsc/Development/C Programming/craps_game/main.c to localhost:3632/2, running locally instead
+o/Users/wsc/Development/C Programming/craps_game/main.c:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'
+o/Users/wsc/Development/C Programming/craps_game/main.c:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'play_game'
+odistcc[11214] ERROR: compile /Users/wsc/Development/C Programming/craps_game/main.c on localhost failed
+lSLF07#2@80"Distribute compilation of /Users/wsc/Development/C Programming/craps_game/main.c303199547#303199547#0(768"distcc[11214] ERROR: compile /Users/wsc/Development/C Programming/craps_game/main.c on localhost:3632/2 faileddistcc[11214] (dcc_build_somewhere) Warning: remote compilation of '/Users/wsc/Development/C Programming/craps_game/main.c' failed, retrying locallydistcc[11214] Warning: failed to distribute /Users/wsc/Development/C Programming/craps_game/main.c to localhost:3632/2, running locally instead/Users/wsc/Development/C Programming/craps_game/main.c:4: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'int'/Users/wsc/Development/C Programming/craps_game/main.c:7: error: expected '=', ',', ';', 'asm' or '__attribute__' before 'play_game'distcc[11214] ERROR: compile /Users/wsc/Development/C Programming/craps_game/main.c on localhost failed2(4@61"Expected '=', ',', ';', 'asm' or '__attribute__' before 'int'303199547#404#127#0(6@54"/Users/wsc/Development/C Programming/craps_game/main.c303199535#4#0#4#0#19"expected * before *0(4@67"Expected '=', ',', ';', 'asm' or '__attribute__' before 'play_game'303199547#531#133#0(6@54"/Users/wsc/Development/C Programming/craps_game/main.c303199535#7#0#7#0#19"expected * before *0(0#0#54"/Users/wsc/Development/C Programming/craps_game/main.c8664428992#1651"    cd "/Users/wsc/Development/C Programming/craps_game"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/craps_game-generated-files.hmap" "-I/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/craps_game-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/craps_game-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/craps_game-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/craps_game/build/Debug" "-I/Users/wsc/Development/C Programming/craps_game/build/Debug/include" "-I/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/DerivedSources" -c "/Users/wsc/Development/C Programming/craps_game/main.c" -o "/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o"1#
+
+CLd "/Users/wsc/Development/C Programming/craps_game/build/Debug/craps_game" normal x86_64
+r0
+

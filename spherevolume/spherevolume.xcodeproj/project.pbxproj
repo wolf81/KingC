@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C8E1EEC12037A8B00741803 /* spherevolume.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5C8E1EEB12037A8B00741803 /* spherevolume.1 */; };
+		5C8E1EEE12037A8B00741803 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5C8E1EED12037A8B00741803 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5C8E1EE612037A8B00741803 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				5C8E1EEC12037A8B00741803 /* spherevolume.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5C8E1EE812037A8B00741803 /* spherevolume */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = spherevolume; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C8E1EEB12037A8B00741803 /* spherevolume.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = spherevolume.1; sourceTree = "<group>"; };
+		5C8E1EED12037A8B00741803 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C8E1EE512037A8B00741803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C8E1EDB12037A8B00741803 = {
+			isa = PBXGroup;
+			children = (
+				5C8E1EE212037A8B00741803 /* Source */,
+				5C8E1EE312037A8B00741803 /* Documentation */,
+				5C8E1EE912037A8B00741803 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C8E1EE212037A8B00741803 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E1EED12037A8B00741803 /* main.c */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5C8E1EE312037A8B00741803 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E1EEB12037A8B00741803 /* spherevolume.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		5C8E1EE912037A8B00741803 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C8E1EE812037A8B00741803 /* spherevolume */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C8E1EE712037A8B00741803 /* spherevolume */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C8E1EF112037A8B00741803 /* Build configuration list for PBXNativeTarget "spherevolume" */;
+			buildPhases = (
+				5C8E1EE412037A8B00741803 /* Sources */,
+				5C8E1EE512037A8B00741803 /* Frameworks */,
+				5C8E1EE612037A8B00741803 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = spherevolume;
+			productName = spherevolume;
+			productReference = 5C8E1EE812037A8B00741803 /* spherevolume */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C8E1EDD12037A8B00741803 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5C8E1EE012037A8B00741803 /* Build configuration list for PBXProject "spherevolume" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C8E1EDB12037A8B00741803;
+			productRefGroup = 5C8E1EE912037A8B00741803 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C8E1EE712037A8B00741803 /* spherevolume */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C8E1EE412037A8B00741803 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C8E1EEE12037A8B00741803 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5C8E1EEF12037A8B00741803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		5C8E1EF012037A8B00741803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		5C8E1EF212037A8B00741803 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = spherevolume;
+			};
+			name = Debug;
+		};
+		5C8E1EF312037A8B00741803 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = spherevolume;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C8E1EE012037A8B00741803 /* Build configuration list for PBXProject "spherevolume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8E1EEF12037A8B00741803 /* Debug */,
+				5C8E1EF012037A8B00741803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C8E1EF112037A8B00741803 /* Build configuration list for PBXNativeTarget "spherevolume" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C8E1EF212037A8B00741803 /* Debug */,
+				5C8E1EF312037A8B00741803 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C8E1EDD12037A8B00741803 /* Project object */;
+}

@@ -1,0 +1,68 @@
+Tbiff_filter
+v7
+r0
+t303064048.292498
+cCheck dependencies
+cDistributed-CompileC build/biff_filter.build/Debug/biff_filter.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/biff_filter/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C45706C00000000000000EE
+t1279619180
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Users/wsc/Development/C Programming/biff_filter/build/Debug/biff_filter
+t2
+s0
+
+N/Users/wsc/Development/C Programming/biff_filter/build/biff_filter.build/Debug/biff_filter.build/Objects-normal/x86_64/biff_filter.LinkFileList
+c000000004C602C6F000000000000007E
+t1281371247
+s126
+
+N/Users/wsc/Development/C Programming/biff_filter/build/biff_filter.build/Debug/biff_filter.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/wsc/Development/C Programming/biff_filter/main.c
+c000000004C602C6F0000000000000125
+t1281371247
+s293
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303064047#303064047#0(0"0(0#1#0"8640803616#0"0#
+
+CDistributed-CompileC build/biff_filter.build/Debug/biff_filter.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/biff_filter/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s303064047.955940
+e303064048.292393
+r0
+xDistributed-CompileC
+xbuild/biff_filter.build/Debug/biff_filter.build/Objects-normal/x86_64/main.o
+x/Users/wsc/Development/C Programming/biff_filter/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+odistcc[71367] ERROR: compile /Users/wsc/Development/C Programming/biff_filter/main.c on localhost:3632/2 failed
+odistcc[71367] (dcc_build_somewhere) Warning: remote compilation of '/Users/wsc/Development/C Programming/biff_filter/main.c' failed, retrying locally
+odistcc[71367] Warning: failed to distribute /Users/wsc/Development/C Programming/biff_filter/main.c to localhost:3632/2, running locally instead
+o/Users/wsc/Development/C Programming/biff_filter/main.c: In function 'main':
+o/Users/wsc/Development/C Programming/biff_filter/main.c:10: error: expected expression before 'char'
+o/Users/wsc/Development/C Programming/biff_filter/main.c:11: error: 'c' undeclared (first use in this function)
+o/Users/wsc/Development/C Programming/biff_filter/main.c:11: error: (Each undeclared identifier is reported only once
+o/Users/wsc/Development/C Programming/biff_filter/main.c:11: error: for each function it appears in.)
+o/Users/wsc/Development/C Programming/biff_filter/main.c:15: error: nested functions are disabled, use -fnested-functions to re-enable
+o/Users/wsc/Development/C Programming/biff_filter/main.c:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token
+o/Users/wsc/Development/C Programming/biff_filter/main.c:15: error: expected expression before ';' token
+odistcc[71367] ERROR: compile /Users/wsc/Development/C Programming/biff_filter/main.c on localhost failed
+lSLF07#2@81"Distribute compilation of /Users/wsc/Development/C Programming/biff_filter/main.c303064047#303064048#0(1391"distcc[71367] ERROR: compile /Users/wsc/Development/C Programming/biff_filter/main.c on localhost:3632/2 faileddistcc[71367] (dcc_build_somewhere) Warning: remote compilation of '/Users/wsc/Development/C Programming/biff_filter/main.c' failed, retrying locallydistcc[71367] Warning: failed to distribute /Users/wsc/Development/C Programming/biff_filter/main.c to localhost:3632/2, running locally instead/Users/wsc/Development/C Programming/biff_filter/main.c: In function 'main':/Users/wsc/Development/C Programming/biff_filter/main.c:10: error: expected expression before 'char'/Users/wsc/Development/C Programming/biff_filter/main.c:11: error: 'c' undeclared (first use in this function)/Users/wsc/Development/C Programming/biff_filter/main.c:11: error: (Each undeclared identifier is reported only once/Users/wsc/Development/C Programming/biff_filter/main.c:11: error: for each function it appears in.)/Users/wsc/Development/C Programming/biff_filter/main.c:15: error: nested functions are disabled, use -fnested-functions to re-enable/Users/wsc/Development/C Programming/biff_filter/main.c:15: error: expected '=', ',', ';', 'asm' or '__attribute__' before '++' token/Users/wsc/Development/C Programming/biff_filter/main.c:15: error: expected expression before ';' tokendistcc[71367] ERROR: compile /Users/wsc/Development/C Programming/biff_filter/main.c on localhost failed5(4@33"Expected expression before 'char'303064048#484#101#0(6@55"/Users/wsc/Development/C Programming/biff_filter/main.c303064047#10#0#10#0#19"expected * before *0(4@43"'c' undeclared (first use in this function)303064048#585#111#0(6@55"/Users/wsc/Development/C Programming/biff_filter/main.c303064047#11#0#11#0#43"'*' undeclared (first use in this function)0(4@66"Nested functions are disabled, use -fnested-functions to re-enable303064048#914#134#0(6@55"/Users/wsc/Development/C Programming/biff_filter/main.c303064047#15#0#15#0#66"nested functions are disabled, use -fnested-functions to re-enable0(4@66"Expected '=', ',', ';', 'asm' or '__attribute__' before '++' token303064048#1048#134#0(6@55"/Users/wsc/Development/C Programming/biff_filter/main.c303064047#15#0#15#0#19"expected * before *0(4@36"Expected expression before ';' token303064048#1182#104#0(6@55"/Users/wsc/Development/C Programming/biff_filter/main.c303064047#15#0#15#0#19"expected * before *0(0#0#55"/Users/wsc/Development/C Programming/biff_filter/main.c8638344032#1680"    cd "/Users/wsc/Development/C Programming/biff_filter"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/biff_filter/build/biff_filter.build/Debug/biff_filter.build/biff_filter-generated-files.hmap" "-I/Users/wsc/Development/C Programming/biff_filter/build/biff_filter.build/Debug/biff_filter.build/biff_filter-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/biff_filter/build/biff_filter.build/Debug/biff_filter.build/biff_filter-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/biff_filter/build/biff_filter.build/Debug/biff_filter.build/biff_filter-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/biff_filter/build/Debug" "-I/Users/wsc/Development/C Programming/biff_filter/build/Debug/include" "-I/Users/wsc/Development/C Programming/biff_filter/build/biff_filter.build/Debug/biff_filter.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/biff_filter/build/biff_filter.build/Debug/biff_filter.build/DerivedSources" -c "/Users/wsc/Development/C Programming/biff_filter/main.c" -o "/Users/wsc/Development/C Programming/biff_filter/build/biff_filter.build/Debug/biff_filter.build/Objects-normal/x86_64/main.o"1#
+
+CLd "/Users/wsc/Development/C Programming/biff_filter/build/Debug/biff_filter" normal x86_64
+r0
+

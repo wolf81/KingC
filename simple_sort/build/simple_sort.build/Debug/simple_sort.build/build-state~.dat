@@ -1,0 +1,63 @@
+Tsimple_sort
+v7
+r0
+t303150479.138878
+cCheck dependencies
+cDistributed-CompileC build/simple_sort.build/Debug/simple_sort.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/simple_sort/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C45706C00000000000000EE
+t1279619180
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Users/wsc/Development/C Programming/simple_sort/build/Debug/simple_sort
+t2
+s0
+
+N/Users/wsc/Development/C Programming/simple_sort/build/simple_sort.build/Debug/simple_sort.build/Objects-normal/x86_64/main.o
+t2
+s0
+
+N/Users/wsc/Development/C Programming/simple_sort/build/simple_sort.build/Debug/simple_sort.build/Objects-normal/x86_64/simple_sort.LinkFileList
+c000000004C617E0E000000000000007E
+t1281457678
+s126
+
+N/Users/wsc/Development/C Programming/simple_sort/main.c
+c000000004C617E0E00000000000000EF
+t1281457678
+s239
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303150478#303150478#0(0"0(0#1#0"8641408832#0"0#
+
+CDistributed-CompileC build/simple_sort.build/Debug/simple_sort.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/simple_sort/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s303150478.931627
+e303150479.138796
+r0
+xDistributed-CompileC
+xbuild/simple_sort.build/Debug/simple_sort.build/Objects-normal/x86_64/main.o
+x/Users/wsc/Development/C Programming/simple_sort/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+odistcc[6130] ERROR: compile /Users/wsc/Development/C Programming/simple_sort/main.c on localhost:3632/2 failed
+odistcc[6130] (dcc_build_somewhere) Warning: remote compilation of '/Users/wsc/Development/C Programming/simple_sort/main.c' failed, retrying locally
+odistcc[6130] Warning: failed to distribute /Users/wsc/Development/C Programming/simple_sort/main.c to localhost:3632/2, running locally instead
+o/Users/wsc/Development/C Programming/simple_sort/main.c: In function 'main':
+o/Users/wsc/Development/C Programming/simple_sort/main.c:9: error: expected ';' before 'int'
+o/Users/wsc/Development/C Programming/simple_sort/main.c:11: error: expected expression before '<' token
+odistcc[6130] ERROR: compile /Users/wsc/Development/C Programming/simple_sort/main.c on localhost failed
+lSLF07#2@81"Distribute compilation of /Users/wsc/Development/C Programming/simple_sort/main.c303150478#303150479#0(781"distcc[6130] ERROR: compile /Users/wsc/Development/C Programming/simple_sort/main.c on localhost:3632/2 faileddistcc[6130] (dcc_build_somewhere) Warning: remote compilation of '/Users/wsc/Development/C Programming/simple_sort/main.c' failed, retrying locallydistcc[6130] Warning: failed to distribute /Users/wsc/Development/C Programming/simple_sort/main.c to localhost:3632/2, running locally instead/Users/wsc/Development/C Programming/simple_sort/main.c: In function 'main':/Users/wsc/Development/C Programming/simple_sort/main.c:9: error: expected ';' before 'int'/Users/wsc/Development/C Programming/simple_sort/main.c:11: error: expected expression before '<' tokendistcc[6130] ERROR: compile /Users/wsc/Development/C Programming/simple_sort/main.c on localhost failed2(4@25"Expected ';' before 'int'303150479#481#92#0(6@55"/Users/wsc/Development/C Programming/simple_sort/main.c303150478#9#0#9#0#19"expected * before *0(4@36"Expected expression before '<' token303150479#573#104#0(6@55"/Users/wsc/Development/C Programming/simple_sort/main.c303150478#11#0#11#0#19"expected * before *0(0#0#55"/Users/wsc/Development/C Programming/simple_sort/main.c8638165280#1680"    cd "/Users/wsc/Development/C Programming/simple_sort"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/simple_sort/build/simple_sort.build/Debug/simple_sort.build/simple_sort-generated-files.hmap" "-I/Users/wsc/Development/C Programming/simple_sort/build/simple_sort.build/Debug/simple_sort.build/simple_sort-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/simple_sort/build/simple_sort.build/Debug/simple_sort.build/simple_sort-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/simple_sort/build/simple_sort.build/Debug/simple_sort.build/simple_sort-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/simple_sort/build/Debug" "-I/Users/wsc/Development/C Programming/simple_sort/build/Debug/include" "-I/Users/wsc/Development/C Programming/simple_sort/build/simple_sort.build/Debug/simple_sort.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/simple_sort/build/simple_sort.build/Debug/simple_sort.build/DerivedSources" -c "/Users/wsc/Development/C Programming/simple_sort/main.c" -o "/Users/wsc/Development/C Programming/simple_sort/build/simple_sort.build/Debug/simple_sort.build/Objects-normal/x86_64/main.o"1#
+
+CLd "/Users/wsc/Development/C Programming/simple_sort/build/Debug/simple_sort" normal x86_64
+r0
+

@@ -1,0 +1,64 @@
+Tprintcal
+v7
+r0
+t302810750.637467
+cCheck dependencies
+cDistributed-CompileC build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/printcal/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/wsc/Development/C Programming/printcal/build/Debug/printcal" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C45706C00000000000000EE
+t1279619180
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Users/wsc/Development/C Programming/printcal/build/Debug/printcal
+t1281117932
+s9080
+
+N/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o
+t1281117931
+s3360
+
+N/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/printcal.LinkFileList
+c000000004C5C4DC80000000000000075
+t1281117640
+s117
+
+N/Users/wsc/Development/C Programming/printcal/main.c
+c000000004C5C4EEB00000000000001BA
+t1281117931
+s442
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302810750#302810750#0(0"0(0#1#0"8653678272#0"0#
+
+CDistributed-CompileC build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/printcal/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s302810732.274293
+e302810732.275627
+r1
+xDistributed-CompileC
+xbuild/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o
+x/Users/wsc/Development/C Programming/printcal/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@78"Distribute compilation of /Users/wsc/Development/C Programming/printcal/main.c302810732#302810732#0(0"0(0#0#52"/Users/wsc/Development/C Programming/printcal/main.c8664637632#1593"    cd "/Users/wsc/Development/C Programming/printcal"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/printcal-generated-files.hmap" "-I/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/printcal-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/printcal-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/printcal-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/printcal/build/Debug" "-I/Users/wsc/Development/C Programming/printcal/build/Debug/include" "-I/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/DerivedSources" -c "/Users/wsc/Development/C Programming/printcal/main.c" -o "/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/wsc/Development/C Programming/printcal/build/Debug/printcal" normal x86_64
+s302810732.275697
+e302810732.310877
+r1
+xLd
+x/Users/wsc/Development/C Programming/printcal/build/Debug/printcal
+xnormal
+xx86_64
+lSLF07#2@71"Link /Users/wsc/Development/C Programming/printcal/build/Debug/printcal302810732#302810732#0(0"0(0#0#0"8663941824#547"    cd "/Users/wsc/Development/C Programming/printcal"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/wsc/Development/C Programming/printcal/build/Debug" "-F/Users/wsc/Development/C Programming/printcal/build/Debug" -filelist "/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/printcal.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/wsc/Development/C Programming/printcal/build/Debug/printcal"0#
+

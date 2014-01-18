@@ -1,0 +1,53 @@
+// !$*UTF8*$!
+{
+	5C8E1F2112037E3000741803 /* Project object */ = {
+		activeBuildConfigurationName = Debug;
+		activeExecutable = 5C8E1F2E12037E3100741803 /* loancalc */;
+		activeTarget = 5C8E1F2B12037E3100741803 /* loancalc */;
+		codeSenseManager = 5C8E1F2512037E3000741803 /* Code sense */;
+		executables = (
+			5C8E1F2E12037E3100741803 /* loancalc */,
+		);
+		ignoreBreakpointsInProjectsDict = {
+		};
+		userBuildSettings = {
+		};
+	};
+	5C8E1F2512037E3000741803 /* Code sense */ = {
+		isa = PBXCodeSenseManager;
+		indexTemplatePath = "";
+	};
+	5C8E1F2B12037E3100741803 /* loancalc */ = {
+		activeExec = 0;
+		executables = (
+			5C8E1F2E12037E3100741803 /* loancalc */,
+		);
+	};
+	5C8E1F2E12037E3100741803 /* loancalc */ = {
+		isa = PBXExecutable;
+		activeArgIndices = (
+		);
+		argumentStrings = (
+		);
+		autoAttachOnCrash = 1;
+		breakpointsEnabled = 0;
+		configStateDict = {
+		};
+		customDataFormattersEnabled = 1;
+		dataTipCustomDataFormattersEnabled = 1;
+		dataTipShowTypeColumn = 1;
+		dataTipSortType = 0;
+		debuggerPlugin = GDBDebugging;
+		disassemblyDisplayState = 0;
+		enableDebugStr = 1;
+		environmentEntries = (
+		);
+		executableSystemSymbolLevel = 0;
+		executableUserSymbolLevel = 0;
+		libgmallocEnabled = 0;
+		name = loancalc;
+		showTypeColumn = 0;
+		sourceDirectories = (
+		);
+	};
+}

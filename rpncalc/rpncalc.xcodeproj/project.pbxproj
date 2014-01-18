@@ -1,0 +1,210 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5CA7348F12C7914B003D5C17 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 5CA7348E12C7914B003D5C17 /* main.c */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		5CA7348812C7914B003D5C17 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		5CA7348A12C7914B003D5C17 /* rpncalc */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = rpncalc; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CA7348D12C7914B003D5C17 /* rpncalc.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = rpncalc.1; sourceTree = "<group>"; };
+		5CA7348E12C7914B003D5C17 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5CA7348712C7914B003D5C17 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5CA7347D12C7914B003D5C17 = {
+			isa = PBXGroup;
+			children = (
+				5CA7348412C7914B003D5C17 /* Source */,
+				5CA7348512C7914B003D5C17 /* Documentation */,
+				5CA7348B12C7914B003D5C17 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5CA7348412C7914B003D5C17 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7348E12C7914B003D5C17 /* main.c */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		5CA7348512C7914B003D5C17 /* Documentation */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7348D12C7914B003D5C17 /* rpncalc.1 */,
+			);
+			name = Documentation;
+			sourceTree = "<group>";
+		};
+		5CA7348B12C7914B003D5C17 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5CA7348A12C7914B003D5C17 /* rpncalc */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5CA7348912C7914B003D5C17 /* rpncalc */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5CA7349212C7914B003D5C17 /* Build configuration list for PBXNativeTarget "rpncalc" */;
+			buildPhases = (
+				5CA7348612C7914B003D5C17 /* Sources */,
+				5CA7348712C7914B003D5C17 /* Frameworks */,
+				5CA7348812C7914B003D5C17 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = rpncalc;
+			productName = rpncalc;
+			productReference = 5CA7348A12C7914B003D5C17 /* rpncalc */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5CA7347F12C7914B003D5C17 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5CA7348212C7914B003D5C17 /* Build configuration list for PBXProject "rpncalc" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5CA7347D12C7914B003D5C17;
+			productRefGroup = 5CA7348B12C7914B003D5C17 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5CA7348912C7914B003D5C17 /* rpncalc */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5CA7348612C7914B003D5C17 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CA7348F12C7914B003D5C17 /* main.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		5CA7349012C7914B003D5C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		5CA7349112C7914B003D5C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PREBINDING = NO;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		5CA7349312C7914B003D5C17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = rpncalc;
+			};
+			name = Debug;
+		};
+		5CA7349412C7914B003D5C17 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_MODEL_TUNING = G5;
+				INSTALL_PATH = /usr/local/bin;
+				PRODUCT_NAME = rpncalc;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5CA7348212C7914B003D5C17 /* Build configuration list for PBXProject "rpncalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA7349012C7914B003D5C17 /* Debug */,
+				5CA7349112C7914B003D5C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5CA7349212C7914B003D5C17 /* Build configuration list for PBXNativeTarget "rpncalc" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5CA7349312C7914B003D5C17 /* Debug */,
+				5CA7349412C7914B003D5C17 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5CA7347F12C7914B003D5C17 /* Project object */;
+}

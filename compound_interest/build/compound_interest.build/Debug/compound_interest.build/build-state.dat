@@ -1,0 +1,64 @@
+Tcompound_interest
+v7
+r0
+t302893900.601539
+cCheck dependencies
+cDistributed-CompileC build/compound_interest.build/Debug/compound_interest.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/compound_interest/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/wsc/Development/C Programming/compound_interest/build/Debug/compound_interest" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004C45706C00000000000000EE
+t1279619180
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004AC59C820000000000004174
+t1254464642
+s16756
+
+N/Users/wsc/Development/C Programming/compound_interest/build/Debug/compound_interest
+t1281201079
+s9112
+
+N/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/Objects-normal/x86_64/compound_interest.LinkFileList
+c000000004C5D93B70000000000000090
+t1281201079
+s144
+
+N/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/Objects-normal/x86_64/main.o
+t1281201076
+s3648
+
+N/Users/wsc/Development/C Programming/compound_interest/main.c
+c000000004C5D93B400000000000002BD
+t1281201076
+s701
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies302893900#302893900#0(0"0(0#1#0"8646374400#0"0#
+
+CDistributed-CompileC build/compound_interest.build/Debug/compound_interest.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/compound_interest/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s302893879.633299
+e302893879.634541
+r1
+xDistributed-CompileC
+xbuild/compound_interest.build/Debug/compound_interest.build/Objects-normal/x86_64/main.o
+x/Users/wsc/Development/C Programming/compound_interest/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@87"Distribute compilation of /Users/wsc/Development/C Programming/compound_interest/main.c302893879#302893879#0(0"0(0#0#61"/Users/wsc/Development/C Programming/compound_interest/main.c8655147232#1854"    cd "/Users/wsc/Development/C Programming/compound_interest"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/compound_interest-generated-files.hmap" "-I/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/compound_interest-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/compound_interest-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/compound_interest-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/compound_interest/build/Debug" "-I/Users/wsc/Development/C Programming/compound_interest/build/Debug/include" "-I/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/DerivedSources" -c "/Users/wsc/Development/C Programming/compound_interest/main.c" -o "/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/wsc/Development/C Programming/compound_interest/build/Debug/compound_interest" normal x86_64
+s302893879.634603
+e302893879.956125
+r1
+xLd
+x/Users/wsc/Development/C Programming/compound_interest/build/Debug/compound_interest
+xnormal
+xx86_64
+lSLF07#2@89"Link /Users/wsc/Development/C Programming/compound_interest/build/Debug/compound_interest302893879#302893879#0(0"0(0#0#0"8654583680#628"    cd "/Users/wsc/Development/C Programming/compound_interest"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/wsc/Development/C Programming/compound_interest/build/Debug" "-F/Users/wsc/Development/C Programming/compound_interest/build/Debug" -filelist "/Users/wsc/Development/C Programming/compound_interest/build/compound_interest.build/Debug/compound_interest.build/Objects-normal/x86_64/compound_interest.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/wsc/Development/C Programming/compound_interest/build/Debug/compound_interest"0#
+

@@ -1,0 +1,64 @@
+Tcalc_polynomal
+v7
+r0
+t303811520.241493
+cCheck dependencies
+cDistributed-CompileC build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/calc_polynomal/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+cLd "/Users/wsc/Development/C Programming/calc_polynomal/build/Debug/calc_polynomal" normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004CAA740B00000000000000EE
+t1286239243
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
+c000000004BBD2CE90000000000004174
+t1270689001
+s16756
+
+N/Users/wsc/Development/C Programming/calc_polynomal/build/Debug/calc_polynomal
+t1281469699
+s9296
+
+N/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/calc_polynomal.LinkFileList
+c000000004C61A5490000000000000087
+t1281467721
+s135
+
+N/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o
+t1281469697
+s3868
+
+N/Users/wsc/Development/C Programming/calc_polynomal/main.c
+c000000004C61AD0100000000000001C3
+t1281469697
+s451
+i<stdio.h>
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies303811520#303811520#0(0"0(0#1#0"8627360608#0"0#
+
+CDistributed-CompileC build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/calc_polynomal/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
+s303162499.685679
+e303162499.689169
+r1
+xDistributed-CompileC
+xbuild/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o
+x/Users/wsc/Development/C Programming/calc_polynomal/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@84"Distribute compilation of /Users/wsc/Development/C Programming/calc_polynomal/main.c303162499#303162499#0(0"0(0#0#58"/Users/wsc/Development/C Programming/calc_polynomal/main.c8636340768#1767"    cd "/Users/wsc/Development/C Programming/calc_polynomal"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/calc_polynomal-generated-files.hmap" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/calc_polynomal-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/calc_polynomal-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/calc_polynomal-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/calc_polynomal/build/Debug" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/Debug/include" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/DerivedSources" -c "/Users/wsc/Development/C Programming/calc_polynomal/main.c" -o "/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/main.o"0#
+
+CLd "/Users/wsc/Development/C Programming/calc_polynomal/build/Debug/calc_polynomal" normal x86_64
+s303162499.689244
+e303162499.710626
+r1
+xLd
+x/Users/wsc/Development/C Programming/calc_polynomal/build/Debug/calc_polynomal
+xnormal
+xx86_64
+lSLF07#2@83"Link /Users/wsc/Development/C Programming/calc_polynomal/build/Debug/calc_polynomal303162499#303162499#0(0"0(0#0#0"8635785184#601"    cd "/Users/wsc/Development/C Programming/calc_polynomal"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/wsc/Development/C Programming/calc_polynomal/build/Debug" "-F/Users/wsc/Development/C Programming/calc_polynomal/build/Debug" -filelist "/Users/wsc/Development/C Programming/calc_polynomal/build/calc_polynomal.build/Debug/calc_polynomal.build/Objects-normal/x86_64/calc_polynomal.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/wsc/Development/C Programming/calc_polynomal/build/Debug/calc_polynomal"0#
+
