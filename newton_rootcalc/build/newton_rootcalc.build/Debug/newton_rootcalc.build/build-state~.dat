@@ -1,70 +1,0 @@
-Tnewton_rootcalc
-v7
-r0
-t302871558.783120
-cCheck dependencies
-cDistributed-CompileC build/newton_rootcalc.build/Debug/newton_rootcalc.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/newton_rootcalc/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cLd "/Users/wsc/Development/C Programming/newton_rootcalc/build/Debug/newton_rootcalc" normal x86_64
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004C45706C00000000000000EE
-t1279619180
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/math.h
-c000000004AC599B500000000000004F1
-t1254463925
-s1265
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004AC59C820000000000004174
-t1254464642
-s16756
-
-N/Users/wsc/Development/C Programming/newton_rootcalc/build/Debug/newton_rootcalc
-t1281178758
-s9056
-
-N/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/Objects-normal/x86_64/main.o
-t1281178755
-s3344
-
-N/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/Objects-normal/x86_64/newton_rootcalc.LinkFileList
-c000000004C5D3C86000000000000008A
-t1281178758
-s138
-
-N/Users/wsc/Development/C Programming/newton_rootcalc/main.c
-c000000004C5D3C830000000000000151
-t1281178755
-s337
-i<stdio.h>
-i<math.h>
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302871558#302871558#0(0"0(0#1#0"8661004256#0"0#
-
-CDistributed-CompileC build/newton_rootcalc.build/Debug/newton_rootcalc.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/newton_rootcalc/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-s302871558.764250
-e302871558.765902
-r1
-xDistributed-CompileC
-xbuild/newton_rootcalc.build/Debug/newton_rootcalc.build/Objects-normal/x86_64/main.o
-x/Users/wsc/Development/C Programming/newton_rootcalc/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@85"Distribute compilation of /Users/wsc/Development/C Programming/newton_rootcalc/main.c302871558#302871558#0(224"/Users/wsc/Development/C Programming/newton_rootcalc/main.c: In function 'main':/Users/wsc/Development/C Programming/newton_rootcalc/main.c:8: warning: format '%f' expects type 'float *', but argument 2 has type 'double *'1(22@70"Format '%f' expects type 'float *', but argument 2 has type 'double *'302871558#81#143#0(6@59"/Users/wsc/Development/C Programming/newton_rootcalc/main.c302871555#8#0#8#0#56"format '*' expects type '*', but argument * has type '*'0(0#0#59"/Users/wsc/Development/C Programming/newton_rootcalc/main.c8662729984#1796"    cd "/Users/wsc/Development/C Programming/newton_rootcalc"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/newton_rootcalc-generated-files.hmap" "-I/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/newton_rootcalc-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/newton_rootcalc-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/newton_rootcalc-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/newton_rootcalc/build/Debug" "-I/Users/wsc/Development/C Programming/newton_rootcalc/build/Debug/include" "-I/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/DerivedSources" -c "/Users/wsc/Development/C Programming/newton_rootcalc/main.c" -o "/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/Objects-normal/x86_64/main.o"0#
-
-CLd "/Users/wsc/Development/C Programming/newton_rootcalc/build/Debug/newton_rootcalc" normal x86_64
-s302871558.765969
-e302871558.783079
-r1
-xLd
-x/Users/wsc/Development/C Programming/newton_rootcalc/build/Debug/newton_rootcalc
-xnormal
-xx86_64
-lSLF07#2@85"Link /Users/wsc/Development/C Programming/newton_rootcalc/build/Debug/newton_rootcalc302871558#302871558#0(0"0(0#0#0"8660773760#610"    cd "/Users/wsc/Development/C Programming/newton_rootcalc"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/wsc/Development/C Programming/newton_rootcalc/build/Debug" "-F/Users/wsc/Development/C Programming/newton_rootcalc/build/Debug" -filelist "/Users/wsc/Development/C Programming/newton_rootcalc/build/newton_rootcalc.build/Debug/newton_rootcalc.build/Objects-normal/x86_64/newton_rootcalc.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/wsc/Development/C Programming/newton_rootcalc/build/Debug/newton_rootcalc"0#
-

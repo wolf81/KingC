@@ -1,56 +1,0 @@
-Tprintcal
-v7
-r0
-t302810440.272844
-cCheck dependencies
-cDistributed-CompileC build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/printcal/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004C45706C00000000000000EE
-t1279619180
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004AC59C820000000000004174
-t1254464642
-s16756
-
-N/Users/wsc/Development/C Programming/printcal/build/Debug/printcal
-t2
-s0
-
-N/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o
-t2
-s0
-
-N/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/printcal.LinkFileList
-c000000004C5C4DC80000000000000075
-t1281117640
-s117
-
-N/Users/wsc/Development/C Programming/printcal/main.c
-c000000004C5C4DC40000000000000165
-t1281117636
-s357
-i<stdio.h>
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302810440#302810440#0(0"0(0#1#0"8652480352#0"0#
-
-CDistributed-CompileC build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/printcal/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-s302810440.271499
-e302810440.272793
-r0
-xDistributed-CompileC
-xbuild/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o
-x/Users/wsc/Development/C Programming/printcal/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Distribute compilation of /Users/wsc/Development/C Programming/printcal/main.c302810440#302810440#0(653"/Users/wsc/Development/C Programming/printcal/main.c: In function 'main':/Users/wsc/Development/C Programming/printcal/main.c:7: warning: format '%d' expects type 'int *', but argument 2 has type 'int'/Users/wsc/Development/C Programming/printcal/main.c:10: warning: format '%d' expects type 'int *', but argument 2 has type 'int'/Users/wsc/Development/C Programming/printcal/main.c:12: error: 'i' undeclared (first use in this function)/Users/wsc/Development/C Programming/printcal/main.c:12: error: (Each undeclared identifier is reported only once/Users/wsc/Development/C Programming/printcal/main.c:12: error: for each function it appears in.)3(22@63"Format '%d' expects type 'int *', but argument 2 has type 'int'302810440#74#129#0(6@52"/Users/wsc/Development/C Programming/printcal/main.c302810436#7#0#7#0#56"format '*' expects type '*', but argument * has type '*'0(22@63"Format '%d' expects type 'int *', but argument 2 has type 'int'302810440#203#130#0(6@52"/Users/wsc/Development/C Programming/printcal/main.c302810436#10#0#10#0#56"format '*' expects type '*', but argument * has type '*'0(4@43"'i' undeclared (first use in this function)302810440#333#108#0(6@52"/Users/wsc/Development/C Programming/printcal/main.c302810436#12#0#12#0#43"'*' undeclared (first use in this function)0(0#0#52"/Users/wsc/Development/C Programming/printcal/main.c8644061024#1593"    cd "/Users/wsc/Development/C Programming/printcal"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/printcal-generated-files.hmap" "-I/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/printcal-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/printcal-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/printcal-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/printcal/build/Debug" "-I/Users/wsc/Development/C Programming/printcal/build/Debug/include" "-I/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/DerivedSources" -c "/Users/wsc/Development/C Programming/printcal/main.c" -o "/Users/wsc/Development/C Programming/printcal/build/printcal.build/Debug/printcal.build/Objects-normal/x86_64/main.o"1#
-
-CLd "/Users/wsc/Development/C Programming/printcal/build/Debug/printcal" normal x86_64
-r0
-

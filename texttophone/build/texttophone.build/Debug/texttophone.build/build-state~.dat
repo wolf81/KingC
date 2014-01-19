@@ -1,64 +1,0 @@
-Ttexttophone
-v7
-r0
-t302869661.577849
-cCheck dependencies
-cDistributed-CompileC build/texttophone.build/Debug/texttophone.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/texttophone/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cLd "/Users/wsc/Development/C Programming/texttophone/build/Debug/texttophone" normal x86_64
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004C45706C00000000000000EE
-t1279619180
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004AC59C820000000000004174
-t1254464642
-s16756
-
-N/Users/wsc/Development/C Programming/texttophone/build/Debug/texttophone
-t1281176861
-s9056
-
-N/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/Objects-normal/x86_64/main.o
-t1281176860
-s2812
-
-N/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/Objects-normal/x86_64/texttophone.LinkFileList
-c000000004C5D351D000000000000007E
-t1281176861
-s126
-
-N/Users/wsc/Development/C Programming/texttophone/main.c
-c000000004C5D351C00000000000000A5
-t1281176860
-s165
-i<stdio.h>
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302869661#302869661#0(0"0(0#1#0"8652926112#0"0#
-
-CDistributed-CompileC build/texttophone.build/Debug/texttophone.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/texttophone/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-s302869661.268600
-e302869661.269820
-r1
-xDistributed-CompileC
-xbuild/texttophone.build/Debug/texttophone.build/Objects-normal/x86_64/main.o
-x/Users/wsc/Development/C Programming/texttophone/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Distribute compilation of /Users/wsc/Development/C Programming/texttophone/main.c302869661#302869661#0(0"0(0#0#55"/Users/wsc/Development/C Programming/texttophone/main.c8657728832#1680"    cd "/Users/wsc/Development/C Programming/texttophone"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/texttophone-generated-files.hmap" "-I/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/texttophone-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/texttophone-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/texttophone-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/texttophone/build/Debug" "-I/Users/wsc/Development/C Programming/texttophone/build/Debug/include" "-I/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/DerivedSources" -c "/Users/wsc/Development/C Programming/texttophone/main.c" -o "/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/Objects-normal/x86_64/main.o"0#
-
-CLd "/Users/wsc/Development/C Programming/texttophone/build/Debug/texttophone" normal x86_64
-s302869661.269890
-e302869661.577803
-r1
-xLd
-x/Users/wsc/Development/C Programming/texttophone/build/Debug/texttophone
-xnormal
-xx86_64
-lSLF07#2@77"Link /Users/wsc/Development/C Programming/texttophone/build/Debug/texttophone302869661#302869661#0(0"0(0#0#0"8655480384#574"    cd "/Users/wsc/Development/C Programming/texttophone"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/wsc/Development/C Programming/texttophone/build/Debug" "-F/Users/wsc/Development/C Programming/texttophone/build/Debug" -filelist "/Users/wsc/Development/C Programming/texttophone/build/texttophone.build/Debug/texttophone.build/Objects-normal/x86_64/texttophone.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/wsc/Development/C Programming/texttophone/build/Debug/texttophone"0#
-

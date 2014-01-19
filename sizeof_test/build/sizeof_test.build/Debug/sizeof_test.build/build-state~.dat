@@ -1,64 +1,0 @@
-Tsizeof_test
-v7
-r0
-t302870589.354238
-cCheck dependencies
-cDistributed-CompileC build/sizeof_test.build/Debug/sizeof_test.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/sizeof_test/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cLd "/Users/wsc/Development/C Programming/sizeof_test/build/Debug/sizeof_test" normal x86_64
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004C45706C00000000000000EE
-t1279619180
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004AC59C820000000000004174
-t1254464642
-s16756
-
-N/Users/wsc/Development/C Programming/sizeof_test/build/Debug/sizeof_test
-t1281177789
-s9040
-
-N/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/Objects-normal/x86_64/main.o
-t1281177789
-s3268
-
-N/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/Objects-normal/x86_64/sizeof_test.LinkFileList
-c000000004C5D38BD000000000000007E
-t1281177789
-s126
-
-N/Users/wsc/Development/C Programming/sizeof_test/main.c
-c000000004C5D38BD0000000000000189
-t1281177789
-s393
-i<stdio.h>
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302870589#302870589#0(0"0(0#1#0"8620276192#0"0#
-
-CDistributed-CompileC build/sizeof_test.build/Debug/sizeof_test.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/sizeof_test/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-s302870589.300395
-e302870589.332025
-r1
-xDistributed-CompileC
-xbuild/sizeof_test.build/Debug/sizeof_test.build/Objects-normal/x86_64/main.o
-x/Users/wsc/Development/C Programming/sizeof_test/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@81"Distribute compilation of /Users/wsc/Development/C Programming/sizeof_test/main.c302870589#302870589#0(0"0(0#0#55"/Users/wsc/Development/C Programming/sizeof_test/main.c8645230592#1680"    cd "/Users/wsc/Development/C Programming/sizeof_test"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/sizeof_test-generated-files.hmap" "-I/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/sizeof_test-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/sizeof_test-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/sizeof_test-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/sizeof_test/build/Debug" "-I/Users/wsc/Development/C Programming/sizeof_test/build/Debug/include" "-I/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/DerivedSources" -c "/Users/wsc/Development/C Programming/sizeof_test/main.c" -o "/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/Objects-normal/x86_64/main.o"0#
-
-CLd "/Users/wsc/Development/C Programming/sizeof_test/build/Debug/sizeof_test" normal x86_64
-s302870589.332097
-e302870589.354190
-r1
-xLd
-x/Users/wsc/Development/C Programming/sizeof_test/build/Debug/sizeof_test
-xnormal
-xx86_64
-lSLF07#2@77"Link /Users/wsc/Development/C Programming/sizeof_test/build/Debug/sizeof_test302870589#302870589#0(0"0(0#0#0"8663935072#574"    cd "/Users/wsc/Development/C Programming/sizeof_test"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/wsc/Development/C Programming/sizeof_test/build/Debug" "-F/Users/wsc/Development/C Programming/sizeof_test/build/Debug" -filelist "/Users/wsc/Development/C Programming/sizeof_test/build/sizeof_test.build/Debug/sizeof_test.build/Objects-normal/x86_64/sizeof_test.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/wsc/Development/C Programming/sizeof_test/build/Debug/sizeof_test"0#
-

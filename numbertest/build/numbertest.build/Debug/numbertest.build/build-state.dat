@@ -1,64 +1,0 @@
-Tnumbertest
-v7
-r0
-t302810015.577512
-cCheck dependencies
-cDistributed-CompileC build/numbertest.build/Debug/numbertest.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/numbertest/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cLd "/Users/wsc/Development/C Programming/numbertest/build/Debug/numbertest" normal x86_64
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004C45706C00000000000000EE
-t1279619180
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004AC59C820000000000004174
-t1254464642
-s16756
-
-N/Users/wsc/Development/C Programming/numbertest/build/Debug/numbertest
-t1281117168
-s9040
-
-N/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/Objects-normal/x86_64/main.o
-t1281117168
-s3000
-
-N/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/Objects-normal/x86_64/numbertest.LinkFileList
-c000000004C5C4B07000000000000007B
-t1281116935
-s123
-
-N/Users/wsc/Development/C Programming/numbertest/main.c
-c000000004C5C4BF0000000000000013A
-t1281117168
-s314
-i<stdio.h>
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies302810015#302810015#0(0"0(0#1#0"8659206272#0"0#
-
-CDistributed-CompileC build/numbertest.build/Debug/numbertest.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/numbertest/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-s302809968.949596
-e302809968.950816
-r1
-xDistributed-CompileC
-xbuild/numbertest.build/Debug/numbertest.build/Objects-normal/x86_64/main.o
-x/Users/wsc/Development/C Programming/numbertest/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Distribute compilation of /Users/wsc/Development/C Programming/numbertest/main.c302809968#302809968#0(0"0(0#0#54"/Users/wsc/Development/C Programming/numbertest/main.c8647585856#1651"    cd "/Users/wsc/Development/C Programming/numbertest"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/numbertest-generated-files.hmap" "-I/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/numbertest-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/numbertest-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/numbertest-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/numbertest/build/Debug" "-I/Users/wsc/Development/C Programming/numbertest/build/Debug/include" "-I/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/DerivedSources" -c "/Users/wsc/Development/C Programming/numbertest/main.c" -o "/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/Objects-normal/x86_64/main.o"0#
-
-CLd "/Users/wsc/Development/C Programming/numbertest/build/Debug/numbertest" normal x86_64
-s302809968.950908
-e302809968.970164
-r1
-xLd
-x/Users/wsc/Development/C Programming/numbertest/build/Debug/numbertest
-xnormal
-xx86_64
-lSLF07#2@75"Link /Users/wsc/Development/C Programming/numbertest/build/Debug/numbertest302809968#302809968#0(0"0(0#0#0"8646546560#565"    cd "/Users/wsc/Development/C Programming/numbertest"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/wsc/Development/C Programming/numbertest/build/Debug" "-F/Users/wsc/Development/C Programming/numbertest/build/Debug" -filelist "/Users/wsc/Development/C Programming/numbertest/build/numbertest.build/Debug/numbertest.build/Objects-normal/x86_64/numbertest.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/wsc/Development/C Programming/numbertest/build/Debug/numbertest"0#
-

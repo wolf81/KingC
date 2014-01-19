@@ -1,81 +1,0 @@
-Trandomwalk
-v7
-r0
-t303160296.386037
-cCheck dependencies
-cDistributed-CompileC build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/randomwalk/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cLd "/Users/wsc/Development/C Programming/randomwalk/build/Debug/randomwalk" normal x86_64
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004CAA740B00000000000000EE
-t1286239243
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
-c000000004AC59C810000000000002C18
-t1254464641
-s11288
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004BBD2CE90000000000004174
-t1270689001
-s16756
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
-c000000004BBD2CE90000000000002DF5
-t1270689001
-s11765
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
-c000000004BBD2CE9000000000000178E
-t1270689001
-s6030
-
-N/Users/wsc/Development/C Programming/randomwalk/build/Debug/randomwalk
-t1281467472
-s9496
-
-N/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o
-t1281467469
-s5320
-
-N/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/randomwalk.LinkFileList
-c000000004C6031A7000000000000007B
-t1281372583
-s123
-
-N/Users/wsc/Development/C Programming/randomwalk/main.c
-c000000004C61A47100000000000005E9
-t1281467505
-s1513
-i<stdio.h>
-i<stdlib.h>
-i<time.h>
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies303160296#303160296#0(0"0(0#1#0"8639394336#0"0#
-
-CDistributed-CompileC build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/randomwalk/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-s303160272.636368
-e303160272.637534
-r1
-xDistributed-CompileC
-xbuild/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o
-x/Users/wsc/Development/C Programming/randomwalk/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Distribute compilation of /Users/wsc/Development/C Programming/randomwalk/main.c303160272#303160272#0(0"0(0#0#54"/Users/wsc/Development/C Programming/randomwalk/main.c8625856960#1651"    cd "/Users/wsc/Development/C Programming/randomwalk"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/randomwalk-generated-files.hmap" "-I/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/randomwalk-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/randomwalk-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/randomwalk-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/randomwalk/build/Debug" "-I/Users/wsc/Development/C Programming/randomwalk/build/Debug/include" "-I/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/DerivedSources" -c "/Users/wsc/Development/C Programming/randomwalk/main.c" -o "/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/main.o"0#
-
-CLd "/Users/wsc/Development/C Programming/randomwalk/build/Debug/randomwalk" normal x86_64
-s303160272.637594
-e303160272.668910
-r1
-xLd
-x/Users/wsc/Development/C Programming/randomwalk/build/Debug/randomwalk
-xnormal
-xx86_64
-lSLF07#2@75"Link /Users/wsc/Development/C Programming/randomwalk/build/Debug/randomwalk303160272#303160272#0(0"0(0#0#0"8628264352#565"    cd "/Users/wsc/Development/C Programming/randomwalk"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/wsc/Development/C Programming/randomwalk/build/Debug" "-F/Users/wsc/Development/C Programming/randomwalk/build/Debug" -filelist "/Users/wsc/Development/C Programming/randomwalk/build/randomwalk.build/Debug/randomwalk.build/Objects-normal/x86_64/randomwalk.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/wsc/Development/C Programming/randomwalk/build/Debug/randomwalk"0#
-

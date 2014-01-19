@@ -1,82 +1,0 @@
-Tcraps_game
-v7
-r0
-t303242344.199463
-cCheck dependencies
-cDistributed-CompileC build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/craps_game/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-cLd "/Users/wsc/Development/C Programming/craps_game/build/Debug/craps_game" normal x86_64
-
-N/Developer/SDKs/MacOSX10.6.sdk
-c000000004CAA740B00000000000000EE
-t1286239243
-s238
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/ctype.h
-c000000004BBD2CE90000000000002C18
-t1270689001
-s11288
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdio.h
-c000000004BBD2CE90000000000004174
-t1270689001
-s16756
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/stdlib.h
-c000000004BBD2CE90000000000002DF5
-t1270689001
-s11765
-
-N/Developer/SDKs/MacOSX10.6.sdk/usr/include/time.h
-c000000004BBD2CE9000000000000178E
-t1270689001
-s6030
-
-N/Users/wsc/Development/C Programming/craps_game/build/Debug/craps_game
-t1281549527
-s9440
-
-N/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/craps_game.LinkFileList
-c000000004C623DBB000000000000007B
-t1281506747
-s123
-
-N/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o
-t1281549527
-s5800
-
-N/Users/wsc/Development/C Programming/craps_game/main.c
-c000000004C62E5090000000000000468
-t1281549577
-s1128
-i<stdio.h>
-i<stdlib.h>
-i<ctype.h>
-i<time.h>
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies303242344#303242344#0(0"0(0#1#0"8641820992#0"0#
-
-CDistributed-CompileC build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o "/Users/wsc/Development/C Programming/craps_game/main.c" normal x86_64 c com.apple.compilers.gcc.4_2
-s303242327.614124
-e303242327.713835
-r1
-xDistributed-CompileC
-xbuild/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o
-x/Users/wsc/Development/C Programming/craps_game/main.c
-xnormal
-xx86_64
-xc
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Distribute compilation of /Users/wsc/Development/C Programming/craps_game/main.c303242327#303242327#0(0"0(0#0#54"/Users/wsc/Development/C Programming/craps_game/main.c8639566944#1651"    cd "/Users/wsc/Development/C Programming/craps_game"    setenv DISTCC_COMPILER "gcc version 4.2.1 (Apple Inc. build 5664)"    setenv DISTCC_HOSTS "localhost:3632/2"    setenv DISTCC_SYSTEM "10.6.4 (10F569, i386)"    setenv LANG en_US.US-ASCII    /Developer/usr/bin/distcc /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote "/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/craps_game-generated-files.hmap" "-I/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/craps_game-own-target-headers.hmap" "-I/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/craps_game-all-target-headers.hmap" -iquote "/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/craps_game-project-headers.hmap" -fpch-preprocess "-F/Users/wsc/Development/C Programming/craps_game/build/Debug" "-I/Users/wsc/Development/C Programming/craps_game/build/Debug/include" "-I/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/DerivedSources/x86_64" "-I/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/DerivedSources" -c "/Users/wsc/Development/C Programming/craps_game/main.c" -o "/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/main.o"0#
-
-CLd "/Users/wsc/Development/C Programming/craps_game/build/Debug/craps_game" normal x86_64
-s303242327.713925
-e303242327.731573
-r1
-xLd
-x/Users/wsc/Development/C Programming/craps_game/build/Debug/craps_game
-xnormal
-xx86_64
-lSLF07#2@75"Link /Users/wsc/Development/C Programming/craps_game/build/Debug/craps_game303242327#303242327#0(0"0(0#0#0"8636488832#565"    cd "/Users/wsc/Development/C Programming/craps_game"    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk "-L/Users/wsc/Development/C Programming/craps_game/build/Debug" "-F/Users/wsc/Development/C Programming/craps_game/build/Debug" -filelist "/Users/wsc/Development/C Programming/craps_game/build/craps_game.build/Debug/craps_game.build/Objects-normal/x86_64/craps_game.LinkFileList" -mmacosx-version-min=10.6 -o "/Users/wsc/Development/C Programming/craps_game/build/Debug/craps_game"0#
-
